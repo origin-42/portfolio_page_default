@@ -1,7 +1,149 @@
-/* Stylesheet Reset */
+/* Stylesheet Resets */
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a, button /* &c... */ {
+  all: unset;
+}
+
+img {
+  width: 100%;
+  height: 0 auto;
+}
+
+/* HEADER */
+
+#header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 40vh;
+}
+
+#header .headerDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#header .title {
+  font-size: 1.6rem;
+}
+#header li {
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-align: center;
+}
+#header li:hover {
+  color: blue;
+}
+#header .nav-list-selected {
+  color: blue;
+}
+
+
+/* FOOTER */
+#footer ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ABOUT SECTION */
+#about {
+  display: flex;
+}
+
+#about #about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#about #about-description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  width: 90%;
+  height: 40vh;
+}
+
+/* PORTFOLIO SECTION */
+
+#portfolios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolios .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#portfolios h2 {
+  margin-bottom: 10px;
+}
+
+#portfolios .project-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 40vh;
+  gap: 10px;
+  width: 90%;
+}
+
+/* RESUME */
+
+#resume #resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#resume #resume-container article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#resume #stack ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+#resume #stack #front-end, #resume #stack #back-end {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+/* CONTACT */
+#contact {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 20px 0;
+}
+
+#contact .contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-form input {
+  padding: 5px;
 }
 

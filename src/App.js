@@ -17,22 +17,24 @@ function App() {
 
   // Change page rendered on state change
   const pageFormat = () => {
+    let page
     if (currentPage === 'about') {
-      return <About changePage={changePage} />
+      page = <About />
     } else if (currentPage === 'portfolio') {
-      return <Portfolio changePage={changePage} />
+      page = <Portfolio />
     } else if (currentPage === 'resume') {
-      return <Resume changePage={changePage} />
+      page = <Resume />
     } else if (currentPage === 'contact') {
-      return <Contact changePage={changePage} />
+      page = <Contact />
     }
+    return page
   }
 
   // Render the given page
   return (
     <div className="App">
-      <Header currentPage={currentPage} />
-      {pageFormat}
+      <Header currentPage={currentPage} changePage={changePage} />
+      {pageFormat()}
       <Footer />
     </div>
   );
