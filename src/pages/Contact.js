@@ -22,12 +22,14 @@ const Contact = () => {
             messageValidation.setAttribute("data-email-valid", "false");
 
         if (emailInput && messageInput) {
-            document.querySelector("#submit").style.backgroundColor = "Green"
+            document.querySelector("#submit").style.backgroundColor = "Blue"
+            document.querySelector("#submit").style.color = "white"
             setNameInput('')
             setEmailInput('')
             setMessageInput('')
             setTimeout(() => {
                 document.querySelector("#submit").style.backgroundColor = "#efefef"
+                document.querySelector("#submit").style.color = "black"
             }, 2000)
         }
 

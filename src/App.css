@@ -274,6 +274,13 @@ img {
   gap: 10px;
 }
 
+#resume-download:hover {
+  color: blue;
+}
+#resume-download:active {
+  font-weight: bold;
+}
+
 @media (min-width: 500px) {
   #resume #resume-container {
     height: 70vh;
@@ -310,6 +317,14 @@ img {
 
 #resume-download {
   cursor: pointer;
+}
+
+#submit {
+  cursor: pointer;
+}
+#submit:hover {
+  border: 3px solid blue;
+  color: blue;
 }
 
 [data-email-valid="true"], [data-message-valid="true"] {
