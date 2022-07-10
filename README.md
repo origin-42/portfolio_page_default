@@ -24,4 +24,4 @@ Dave Plummer
 
 [Introduction](https://github.com/origin-42/portfolio_page_default) - Dave Plummer Portfolio Website
 
-![snippet](./assets/images/portfolio_screenshot.jpg)
+![snippet](./src/images/portfolio_screenshot.jpg)
