@@ -5,6 +5,34 @@ const Contact = () => {
     const [emailInput, setEmailInput] = useState('');
     const [messageInput, setMessageInput] = useState('');
 
+    
+
+    const handleContact = async (e) => {
+
+        e.preventDefault();
+
+        let emailValidation = document.querySelector("#email-error")
+        emailInput? 
+            emailValidation.setAttribute("data-message-valid", "true") :
+            emailValidation.setAttribute("data-message-valid", "false");
+
+        let messageValidation = document.querySelector("#message-error")
+        messageInput? 
+            messageValidation.setAttribute("data-email-valid", "true") :
+            messageValidation.setAttribute("data-email-valid", "false");
+
+        if (emailInput && messageInput) {
+            document.querySelector("#submit").style.backgroundColor = "Green"
+            setNameInput('')
+            setEmailInput('')
+            setMessageInput('')
+            setTimeout(() => {
+                document.querySelector("#submit").style.backgroundColor = "#efefef"
+            }, 2000)
+        }
+
+    }
+
     const handleChange = (e, input) => {
         if (input === 'name') {
             setNameInput(e.target.value)
@@ -15,17 +43,15 @@ const Contact = () => {
         }
     };  
 
-    const mailto = `mailto:d.plummer89@hotmail.com?%0D%0Asubject=Message from portfolio page from ${nameInput}&%0D%0Abody=${messageInput}`;
-
     return (
         <section id="contact">
-            <div id="contact-container">
+            <div id="contact-container" className='container'>
 
                 <form 
                 className="contact-form" 
-                action={mailto}
                 method='post'
                 encType='text/plain'
+                onSubmit={(e) => handleContact(e)}
                 >
                     <input 
                         type="text"
@@ -66,6 +92,8 @@ const Contact = () => {
                     </input>
                 </form>
 
+                <div id='email-error' data-email-valid="true">Please enter a valid email</div>
+                <div id='message-error' data-message-valid="true">Please enter a message</div>
             </div>
         </section>
     )

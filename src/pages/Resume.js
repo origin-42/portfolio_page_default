@@ -5,14 +5,14 @@ const Resume = () => {
 
     return (
         <section id="resume">
-            <div id="resume-container">
+            <div id="resume-container" className='container'>
                 <div id='resume-download'>
                     <a href={resumePdf} target="_blank" rel='noreferrer' download="Resume_dave_plummer.pdf">Download my resume..</a>
                 </div>
-                <article>
+                <article id='profs-wrapper'>
                     <div id='stack' className='technologies'>
                         
-                        <article id='front-end'>
+                        <article id='front-end' className='stack-wrapper'>
                             <h2>Front-end Proficiencies</h2>
                             <ul>
 
@@ -23,7 +23,7 @@ const Resume = () => {
                             </ul>
                         </article>
 
-                        <article id='back-end'>
+                        <article id='back-end' className='stack-wrapper'>
                             <h2>Back-end Proficiencies</h2>
                             <ul>
 
@@ -35,7 +35,6 @@ const Resume = () => {
                         </article>
 
                     </div>
-                    <div id='back-end' className='technologies'></div>
                 </article>
             </div>
         </section>

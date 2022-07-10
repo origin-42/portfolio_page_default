@@ -4,12 +4,15 @@ const Portfolio = () => {
 
     return (
         <section id='portfolio'>
-            <div id='portfolio-container'>
+            <div id='portfolio-container' className='container'>
+
+                
                 <div id='portfolios'>
                     <h2>Portfolio Section</h2>
 
-                    {/* Return all portfolio items */}
-                    {projects.map((item) => {
+                    <div id='portfolios-container'>
+                        {/* Return all portfolio items */}
+                        {projects.map((item) => {
 
                         return (
                             <article className='project' key={item.id}>
@@ -22,7 +25,9 @@ const Portfolio = () => {
                             </article>
                         )
 
-                    })}
+                        })}
+                    </div>
+                    
 
                 </div>
             </div>
