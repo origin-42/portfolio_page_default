@@ -1,6 +1,6 @@
 import avatar from '../images/avatar.png'
 
-const About = () => {
+const About = ({changePage}) => {
 
     return (
         <section id='about'>
@@ -15,7 +15,7 @@ const About = () => {
                             I hope to be able to create progressive applications to help connect 
                             the less initiated to the web in a helpful and meaningful way.
                         </p>
-                        <button>EXPLORE MY PORTFOLIO</button>
+                        <button onClick={() => changePage('portfolio')}>EXPLORE MY PORTFOLIO</button>
                 </article>
             </div>
         </section>

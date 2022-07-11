@@ -1,7 +1,5 @@
 const Header = ({currentPage, changePage}) => {
 
-   
-
     return (
         <section id="header">
             <div id="header-container">

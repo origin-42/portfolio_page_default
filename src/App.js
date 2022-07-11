@@ -21,7 +21,7 @@ function App() {
     if (currentPage === 'about') {
       page = <About />
     } else if (currentPage === 'portfolio') {
-      page = <Portfolio />
+      page = <Portfolio changePage={changePage} />
     } else if (currentPage === 'resume') {
       page = <Resume />
     } else if (currentPage === 'contact') {
