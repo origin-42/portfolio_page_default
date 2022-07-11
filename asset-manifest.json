@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.d98c305f.css",
-    "main.js": "/static/js/main.958c496d.js",
-    "static/js/787.28a6522c.chunk.js": "/static/js/787.28a6522c.chunk.js",
-    "static/media/ecommerce.jpg": "/static/media/ecommerce.ef3338e2c14af34bf7f3.jpg",
-    "static/media/readme.jpg": "/static/media/readme.2a616bc8fdb10b73b8ad.jpg",
-    "static/media/employeedatabase.jpg": "/static/media/employeedatabase.35948dd84c60585027dd.jpg",
-    "static/media/password.jpg": "/static/media/password.2f666878cb095ff6d3c7.jpg",
-    "static/media/avatar.png": "/static/media/avatar.58c84f157b1d2d6cb604.png",
-    "static/media/medic-manager.jpg": "/static/media/medic-manager.e46f28650584b46eefb6.jpg",
-    "static/media/wheretowatch.jpg": "/static/media/wheretowatch.6d88e31faeddadfacd8a.jpg",
-    "static/media/Resume_dave_plummer.pdf": "/static/media/Resume_dave_plummer.38dcd0a9a35ee3eade85.pdf",
-    "index.html": "/index.html",
-    "main.d98c305f.css.map": "/static/css/main.d98c305f.css.map",
-    "main.958c496d.js.map": "/static/js/main.958c496d.js.map",
-    "787.28a6522c.chunk.js.map": "/static/js/787.28a6522c.chunk.js.map"
+    "main.css": "/default_portfolio_page/static/css/main.d98c305f.css",
+    "main.js": "/default_portfolio_page/static/js/main.75480bb8.js",
+    "static/js/787.28a6522c.chunk.js": "/default_portfolio_page/static/js/787.28a6522c.chunk.js",
+    "static/media/ecommerce.jpg": "/default_portfolio_page/static/media/ecommerce.ef3338e2c14af34bf7f3.jpg",
+    "static/media/readme.jpg": "/default_portfolio_page/static/media/readme.2a616bc8fdb10b73b8ad.jpg",
+    "static/media/employeedatabase.jpg": "/default_portfolio_page/static/media/employeedatabase.35948dd84c60585027dd.jpg",
+    "static/media/password.jpg": "/default_portfolio_page/static/media/password.2f666878cb095ff6d3c7.jpg",
+    "static/media/avatar.png": "/default_portfolio_page/static/media/avatar.58c84f157b1d2d6cb604.png",
+    "static/media/medic-manager.jpg": "/default_portfolio_page/static/media/medic-manager.e46f28650584b46eefb6.jpg",
+    "static/media/wheretowatch.jpg": "/default_portfolio_page/static/media/wheretowatch.6d88e31faeddadfacd8a.jpg",
+    "static/media/Resume_dave_plummer.pdf": "/default_portfolio_page/static/media/Resume_dave_plummer.38dcd0a9a35ee3eade85.pdf",
+    "index.html": "/default_portfolio_page/index.html",
+    "main.d98c305f.css.map": "/default_portfolio_page/static/css/main.d98c305f.css.map",
+    "main.75480bb8.js.map": "/default_portfolio_page/static/js/main.75480bb8.js.map",
+    "787.28a6522c.chunk.js.map": "/default_portfolio_page/static/js/787.28a6522c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d98c305f.css",
-    "static/js/main.958c496d.js"
+    "static/js/main.75480bb8.js"
   ]
 }
